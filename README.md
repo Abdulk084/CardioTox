@@ -23,8 +23,10 @@ cd PyBioMed
 python setup.py install
 cd ..
 ```
-5. Test model: python test.py
-
+5. Test model: 
+```
+python test.py
+```
 This will test the model on two external data sets mentioned in the paper.
 
 ## Usage
