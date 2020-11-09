@@ -1,5 +1,5 @@
-# CardioTox net: A robust deep learning framework for hERG-induced cardiotoxicity prediction
-##### Abdul Karim, Matthew Lee, and Abdul Sattar
+# CardioTox net: A robust predictor for hERG channel blockade via deep learning meta ensembling approaches
+##### Abdul Karim, Matthew Lee, Thomas Balle, and Abdul Sattar
 
 This is complementary code for running the models in the paper. Included are the pre-training models
 and the code to load and run inference.
@@ -24,6 +24,8 @@ python setup.py install
 cd ..
 ```
 5. Test model: python test.py
+
+This will test the model on two external data sets mentioned in the paper.
 
 ## Usage
 
