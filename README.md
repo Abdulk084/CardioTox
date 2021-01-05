@@ -98,5 +98,6 @@ We compared our method using the [test set-I](https://github.com/Abdulk084/Cardi
 #### Test set-I
  Methods | MCC | NPV | ACC | PPV | SPE | SEN  
  ------- | --- | --- | --- | --- | --- | ---
- CardioTox | 0.599 | 0.688 | 0.810 | 0.893 | 0.786 | 0.833 
+ CardioTox | 0.599 | 0.688 | 0.810 | 0.893 | 0.786 | 0.833
+ DeepHIT | 0.476 | 0.643 | 0.773 | 0.833 | 0.643 | 0.833
 
