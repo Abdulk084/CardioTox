@@ -95,7 +95,23 @@ model.predict_preprocessed(preprocessed_smile)
 We compared our method using the [test set-I](https://github.com/Abdulk084/CardioTox/blob/master/data/external_test_set_pos.csv) and  [test set-II](https://github.com/Abdulk084/CardioTox/blob/master/data/external_test_set_neg.csv) with other state of the art methods as follows.
 
 
-#### Test set-I                                                                          #### Test set-II
+
+<table>
+<tr><th>Test set-I  </th><th>Test set-II </th></tr>
+<tr><td>
+
+
+                                                                      
+ Methods | MCC | NPV | ACC | PPV | SPE | SEN  
+ ------- | --- | --- | --- | --- | --- | ---
+ CardioTox | 0.599 | 0.688 | 0.810 | 0.893 | 0.786 | 0.833
+ DeepHIT | 0.476 | 0.643 | 0.773 | 0.833 | 0.643 | 0.833
+ CardPred | 0.193 | 0.643 | 0.614 | 0.760 | 0.571 | 0.633
+ OCHEM Predictor-I | 0.149 | 0.333 | 0.364 | 1.000 | 1.000 | 0.067
+ OCHEM Predictor-II | 0.164 | 0.351 | 0.432 | 0.857 | 0.929 | 0.200
+ Pred-hERG 4.2 | 0.306 | 0.538 | 0.705 | 0.774 | 0.500 | 0.800
+</td><td>
+
  Methods | MCC | NPV | ACC | PPV | SPE | SEN  
  ------- | --- | --- | --- | --- | --- | ---
  CardioTox | 0.599 | 0.688 | 0.810 | 0.893 | 0.786 | 0.833
@@ -105,12 +121,4 @@ We compared our method using the [test set-I](https://github.com/Abdulk084/Cardi
  OCHEM Predictor-II | 0.164 | 0.351 | 0.432 | 0.857 | 0.929 | 0.200
  Pred-hERG 4.2 | 0.306 | 0.538 | 0.705 | 0.774 | 0.500 | 0.800
 
-#### Test set-II
- Methods | MCC | NPV | ACC | PPV | SPE | SEN  
- ------- | --- | --- | --- | --- | --- | ---
- CardioTox | 0.599 | 0.688 | 0.810 | 0.893 | 0.786 | 0.833
- DeepHIT | 0.476 | 0.643 | 0.773 | 0.833 | 0.643 | 0.833
- CardPred | 0.193 | 0.643 | 0.614 | 0.760 | 0.571 | 0.633
- OCHEM Predictor-I | 0.149 | 0.333 | 0.364 | 1.000 | 1.000 | 0.067
- OCHEM Predictor-II | 0.164 | 0.351 | 0.432 | 0.857 | 0.929 | 0.200
- Pred-hERG 4.2 | 0.306 | 0.538 | 0.705 | 0.774 | 0.500 | 0.800
+</td></tr> </table>
