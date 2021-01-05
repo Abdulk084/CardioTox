@@ -125,10 +125,5 @@ We compared our method using the [test set-I](https://github.com/Abdulk084/Cardi
 
 
 
+![Alt text](https://github.com/Abdulk084/CardioTox/blob/master/sim.png?raw=true "Title")
 
-
-<object data="https://github.com/Abdulk084/CardioTox/blob/master/similarity.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/Abdulk084/CardioTox/blob/master/similarity.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/Abdulk084/CardioTox/blob/master/similarity.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
