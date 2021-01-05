@@ -96,6 +96,6 @@ We compared our method using the [test set-I](https://github.com/Abdulk084/Cardi
 
 
 
-Evaluation data | #Methods | #MCC | #NPV | #ACC | #PPV | #SPE | #SEN 
---- | --- | --- | --- |--- |--- |--- |--- |--- 
-Test set-I | CardioTox | 0.599 | 0.688 | 0.810 | 0.893 | 0.786 | 0.833 
+Evaluation data | #Methods 
+--------------- | -------- 
+
