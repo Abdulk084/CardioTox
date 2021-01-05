@@ -90,6 +90,19 @@ preprocessed_smile = model.preprocess_smile([smile]) # Expects a list of smiles
 model.predict_preprocessed(preprocessed_smile)
 
 ```
+
+### Pairwise Tanimoto similarity 
+
+We make sure that none of the molecule in both test sets ([test set-I](https://github.com/Abdulk084/CardioTox/blob/master/data/external_test_set_pos.csv), [test set-II](https://github.com/Abdulk084/CardioTox/blob/master/data/external_test_set_neg.csv)) are similar to trainining set ([training](https://github.com/Abdulk084/CardioTox/blob/master/data/train_validation_cardio_tox_data.tar.xz)) and to each other as well.
+
+
+
+
+![Pairwise Tanimoto similarity bins](https://github.com/Abdulk084/CardioTox/blob/master/sim.png?raw=true "Title")
+
+
+
+
 ### Results
 
 We compared our method using the [test set-I](https://github.com/Abdulk084/CardioTox/blob/master/data/external_test_set_pos.csv) and  [test set-II](https://github.com/Abdulk084/CardioTox/blob/master/data/external_test_set_neg.csv) with other state of the art methods as follows.
@@ -125,5 +138,5 @@ We compared our method using the [test set-I](https://github.com/Abdulk084/Cardi
 
 
 
-![Alt text](https://github.com/Abdulk084/CardioTox/blob/master/sim.png?raw=true "Title")
+
 
