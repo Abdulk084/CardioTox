@@ -136,7 +136,7 @@ We compared our method using the [test set-I](https://github.com/Abdulk084/Cardi
 
 </td></tr> </table>
 
-
+#### Note: Only suitable for SMILES with Maximum number of 1's in MorganFingerprint >= 93.
 
 
 
