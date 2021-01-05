@@ -93,8 +93,10 @@ model.predict_preprocessed(preprocessed_smile)
 ### Results
 
 We compared our method using the [test set-I](https://github.com/Abdulk084/CardioTox/blob/master/data/external_test_set_pos.csv) and  [test set-II](https://github.com/Abdulk084/CardioTox/blob/master/data/external_test_set_neg.csv) with other state of the art methods as follows.
-```
+
 **Model** | **MCC** | **NPV** | **ACC** | **PPV** | **SPE** | **SEN** |
 CardioTox | 0.599 | 0.688 | 0.810 | 0.893 |0.786 |0.833 |
 
-```
+Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
