@@ -122,3 +122,6 @@ We compared our method using the [test set-I](https://github.com/Abdulk084/Cardi
  Pred-hERG 4.2 |0.146|0.813|0.580|0.320|0.433|0.727
 
 </td></tr> </table>
+
+
+![Alt text](https://github.com/Abdulk084/CardioTox/blob/master/similarity.pdf?raw=true "Title")
