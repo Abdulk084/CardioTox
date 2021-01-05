@@ -96,6 +96,6 @@ We compared our method using the [test set-I](https://github.com/Abdulk084/Cardi
 
 
 
-Evaluation data | #Methods 
+Evaluation data | Methods 
 --------------- | -------- 
 
