@@ -77,6 +77,7 @@ class DescModel(CardioTox):
     def preprocess_smile(self, smiles):
         smile_df = self._calculate_mordred_descriptors(smiles, self.desc_file)
         smile_df = self._normalize_data(smile_df)
+        smile_df = np.nan_to_num(smile_df)
         return smile_df
     
     def model_definition(self):
