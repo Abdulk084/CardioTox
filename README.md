@@ -1,8 +1,7 @@
 # CardioTox net: A robust predictor for hERG channel blockade via deep learning meta ensembling approaches
 ##### Abdul Karim, Matthew Lee, Thomas Balle, and Abdul Sattar
 
-This is complementary code for running the models in the paper submitted to BMC Cheminformatics dated 4th January, 2021.
-
+This is complementary code for running the models in the paper https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00541-z
 
 ## Installation
 
